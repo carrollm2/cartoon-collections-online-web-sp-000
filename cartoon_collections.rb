@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(calls)
 
-  planeteer_calls = []
+  planteer_calls = []
   calls.each do |call|
     planteer_calls.push(call.upcase + "!")
   end
