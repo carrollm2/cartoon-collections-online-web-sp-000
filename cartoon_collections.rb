@@ -9,7 +9,7 @@ def summon_captain_planet(calls)
 
   planteer_calls = []
   calls.each do |call|
-    planteer_calls.push(call.upcase + "!")
+    planteer_calls.push(call.capitalize + "!")
   end
 
   return planteer_calls
