@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)
   end
 end
 
+
 def summon_captain_planet(calls)
 
   planteer_calls = []
@@ -16,6 +17,7 @@ def summon_captain_planet(calls)
 
 end
 
+
 def long_planeteer_calls(calls)
   calls.each do |call|
     if call.length > 4
@@ -24,6 +26,7 @@ def long_planeteer_calls(calls)
   end
   return false
 end
+
 
 def find_the_cheese(snacks)
 
